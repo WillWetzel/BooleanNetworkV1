@@ -110,6 +110,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ANDTable.h" />
+    <ClInclude Include="NANDTable.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="NORTable.h" />
+    <ClInclude Include="ORTable.h" />
+    <ClInclude Include="TruthTable.h" />
+    <ClInclude Include="XORTable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="TruthTable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
